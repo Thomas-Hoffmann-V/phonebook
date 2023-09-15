@@ -1,0 +1,71 @@
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #909090;
+  border-radius: 30px;
+  margin-left: 180px;
+}
+
+
+
+.button1:hover {
+  background-color: #909090;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+.container { 
+  height: 70px;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  display: inline-block;
+  position: relative;
+  border: 3px solid grey; 
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container p{
+  display: inline-block;
+  position: absolute;
+  font: bold 14px 'lucida sans', 'trebuchet MS', 'Tahoma';
+  border-radius: 40px;
+  margin-top: 22px;
+  border-top-style: none;
+
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
