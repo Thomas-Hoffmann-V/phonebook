@@ -1,0 +1,139 @@
+
+
+
+*{             
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.clearfix{
+  float: none;
+  clear: both;
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #909090;
+  border-radius: 30px;
+  margin-left: 265px;
+}
+
+
+
+.button1:hover {
+  background-color: #909090;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+.container { 
+  height: 70px;
+  width: 390px;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: relative;
+  border: 3px solid grey; 
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.container p{
+  display: inline-block;
+  position: absolute;
+  font: bold 15.5px 'lucida sans', 'trebuchet MS', 'Tahoma';
+  border-radius: 40px;
+  margin-top: 22px;
+  border-top-style: none;
+
+}
+
+.container-1 { 
+  height: 70px;
+  width: 450px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  position: relative;
+  border: 3px solid grey; 
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+h1{
+  font-size: 20px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+*,*:after,*:before{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: arial;
+  font-size: 16px;
+  margin: 0;
+  background: #fff;
+  color: #000;
+}
+
+
+footer {
+    font-family: French Script MT;
+    font-size: 25px;
+    color: white;
+    height: 47px;
+    background: rgba(51,51,51,0.70);
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
